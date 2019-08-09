@@ -143,15 +143,3 @@ for i in range(1,30):
     #sig_clf.fit(X_val, y_val)
     clf_probs = clf.score(X_val,y_val)
     print(clf_probs)
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
