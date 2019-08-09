@@ -107,10 +107,6 @@ plt.rcParams['figure.figsize'] = (8.0, 6.0) # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
 plt.rcParams['image.cmap'] = 'gray'
 
-# auto-reloading external modules
-# see http://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython
-#%load_ext autoreload
-#%autoreload 2
 
 raw_data = np.loadtxt(open("eeg.csv", "rb"), delimiter=",", skiprows=0)
 X_raw = raw_data[:,:-1]
