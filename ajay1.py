@@ -7,7 +7,6 @@ Created on Thu Apr 18 11:20:11 2019
 """
 
 # Logistic Regression
-
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -52,10 +51,7 @@ sb.heatmap(dataset.corr())
 # K-Nearest Neighbors (K-NN)
 
 # Importing the libraries
-
 # Importing the dataset
-
-
 # Splitting the dataset into the Training set and Test set
 from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20, random_state = 0)
